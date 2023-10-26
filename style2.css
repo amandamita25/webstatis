@@ -1,0 +1,86 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-image: url(https://img.ws.mms.shopee.co.id/d49edcd7563241478fb7ef2945572f5d);
+    
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(240, 181, 154);
+    outline-style: solid;
+    outline-color: white;
+}
+.header {
+    padding: 15px;
+}
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.container .header ul {
+    margin-left: -40px;
+}
+.header a {
+    text-decoration: none;
+    color: rgb(172, 69, 10);
+    padding: 10px;
+}
+.header a:hover {
+    background-color: beige;
+    color: black;
+}
+.hero {
+    height: 350px;
+    background-image: url(https://pbs.twimg.com/media/DoRKgfbXoAYbkm9.jpg);
+    background-size: cover;
+    background-position: 0 -75px;
+}
+.content {
+    padding: 15px;
+}
+.content .penulis {
+    margin-top: 15px;
+}
+.ul {
+    list-style-type: disc;
+}
+/*CSS tabel */
+.tabelheading h2 {
+    padding: 15px;
+    margin-top: -20px;
+  }
+  
+  .tabeljenis {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 780px;
+    height: 100px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  
+  td {
+    text-align: left;
+    padding: 15px;
+  }
+  
+  th {
+    text-align: center;
+  }
+/*CSS Icon */
+.footer p {
+    color: salmon;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  
+  .footer .besar {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    background-color: #333;
+    text-align: center;
+  }  
