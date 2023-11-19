@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar start */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 4%;
+  background-color: rgb(252, 137, 70) ;
+  border-bottom: 3px #ffffff solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+.navbar .logo{
+  margin-left: 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: left;
+}
+
+.navbar .logo a{
+  margin-left: 2rem;
+  font-weight: 700;
+  color: #f1e5dd;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .logo img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.navbar .navbar-nav a{
+  display: inline-block ;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  color: #f7ebe5;
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: 2rem #15222c17;
+  border-radius: 20px;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .navbar-nav a:hover{
+  color: rgb(8, 2, 27);
+  font-size: 0.9rem;
+}
+.navbar .navbar-nav a::after{
+  content: '';
+  display: block;
+  border-bottom: 0.1rem solid rgb(10, 10, 43);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after{
+  transform: scaleX(0.5);
+}
+
+#menu{
+  display: none;
+}
+/* navbar end */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: rgb(247, 171, 127) ;
+  
+}
+#judul{
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-family: 'Patua One', serif;
+  color: white;
+  background-color: rgb(247, 104, 52);
+  color:#ffffff;
+  border: 3px solid rgb(243, 180, 143);
+}
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+#welcome img{
+  width: 100%;
+  /* height: 200px; */
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content .opening p {
+  margin-bottom: 30px;
+}
+.content img {
+  width: 60%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: 10px;
+
+}
+.content div h3,
+  .content div p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+#subjudul {
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  background-color: rgb(247, 104, 52);
+  color: black;
+  border: 3px solid rgb(243, 180, 143); 
+}
+#form {
+  padding: 20px;
+  background-color: rgb(247, 98, 44);
+  color: aliceblue;
+  border: 3px solid rgb(255, 255, 255);
+}
+table{
+  border: 2px;
+  width:100%;
+}
+/*sitebar*/
+.toggle-sidebar{
+  display: inline-block ;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  color: #f7ebe5;
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: 2rem #15222c17;
+  border-radius: 20px;
+  padding: 8px 10px;
+  text-decoration: none;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar .navbar-nav button:hover{
+  color: rgb(8, 2, 27);
+  font-size: 0.9rem;
+}
+.navbar .navbar-nav button::after{
+  content: '';
+  display: block;
+  border-bottom: 0.1rem solid rgb(10, 10, 43);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+.sidebar{
+  height: 100vh;
+  width: 200px;
+  list-style: none;
+  background-color: rgb(247, 98, 44);
+  position: fixed;
+  left: -200px;
+  transition: 0.5s;
+}
+.sidebar-open{
+  left: 0;
+}
+.sidebar li a{
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid silver;
+  transition: background-color 0.5s;
+}
+.sidebar li a :hover{
+  background-color: white;
+}
